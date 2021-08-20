@@ -1,42 +1,38 @@
-##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Should work on all regions as long as the opcodes are mapped. Works on Caali's and Pinkie Pie's tera-proxy.
+##### :heavy_exclamation_mark: Estado :heavy_exclamation_mark:
+Debería funcionar en todas las regiones siempre que se asignen los códigos de operación. Funciona en el Tera Toolbox
 
-##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
-1) Download Normalifier: https://github.com/TeraProxy/Normalifier/archive/master.zip
-2) Extract the contents of the zip file into "\tera-proxy\mods\"
-3) Done! (the module will auto-update on Caali's proxy when a new version is released)
+##### :heavy_exclamation_mark: Instalación :heavy_exclamation_mark:
+1) Descargar Normalifier: https://github.com/Loliconera/Normalifier/archive/refs/heads/master.zip
+2) Extraiga el contenido del archivo zip en "\TeraToolbox\mods\"
+3) ¡Hecho! (el módulo se actualizará automáticamente en el Toolbox cuando se lance una nueva versión)
+
+# Normalizador
+Un módulo tera-proxy que bloquea anomalías específicas para no activar efectos de pantalla molestos en su cliente (por ejemplo, Lein's Dark Root Beer).
+Esta es una bifurcación de spaacecats' original no-drunk-screen.  
+
+## Uso
+El módulo está habilitado de forma predeterminada y bloqueará los molestos efectos de pantalla.  
   
-Users of Pinkie's proxy also need to install tera-game-state: https://github.com/caali-hackerman/tera-game-state/archive/master.zip  
+Mientras estás en el juego, abre una sesión de chat proxy escribiendo "/8" en el chat y presionando la barra espaciadora.
+Esto sirve como interfaz de comandos del script.
+Se admiten los siguientes comandos:
   
-If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ)
+* **norm** - Habilitar / Deshabilitar Normalifier
+* **norm log** - Habilitar / Deshabilitar el registro de ID anormales
 
-# Normalifier
-A tera-proxy module that blocks specific abnormals in order to not trigger annoying screen effects on your client (e.g. Lein's Dark Root Beer).  
-This is a fork of spaacecats' original no-drunk-screen.  
+## Seguridad
+Todo lo que envíes al chat proxy en el juego se intercepta del lado del cliente. El chat NO se envía al servidor.  
 
-## Usage
-The module is enabled by default and will block annoying screen effects.  
-  
-While in game, open a proxy chat session by typing "/proxy" or "/8" in chat and hitting the space bar.  
-This serves as the script's command interface.  
-The following commands are supported:  
-  
-* **norm** - enable/disable Normalifier
-* **norm log** - enable/disable logging of abnormal IDs
+## Créditos
+Original de spaacecats -> https://github.com/spaacecats
 
-## Safety
-Whatever you send to the proxy chat in game is intercepted client-side. The chat is NOT sent to the server.  
-
-## Credits
-Original by spaacecats -> https://github.com/spaacecats
-
-## Changelog
+## Registro de cambios
 <details>
 
 ### 1.0.1
-* [~] Minor definition update
+* [~] Actualización menor de la definición
 ### 1.0.0
-* [*] Updated abnormal IDs
-* [+] Added commands to disable the module and log abnormal IDs
+* [*] ID anormales actualizados
+* [+] Se agregaron comandos para deshabilitar el módulo y registrar IDs anormales
 
 </details>
