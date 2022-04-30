@@ -2,11 +2,11 @@
     "files": {
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
         "README.md": "ea1ab1f0575d72baf1712b764f9a758371fec3d006e14304aa6099167e98d2b8",
-        "index.js": "f80b2a50d17ccd7233e4f188ede566fc6db76978609a93bb2a1ca0561cd07efe",
+        "index.js": "3a38faa8269918cb92b549e9a7d5e8db7cc23e8c5d3f3cef3cd1a0a46024c6a4",
         "module.json": "f121ac5a67eeb489fcb3f7ab46f9f3fe28edc88ffa42fc2d26c165517ce7294a"
     },
     "defs": {
-        "S_ABNORMALITY_BEGIN": 5,
+        "S_ABNORMALITY_BEGIN": 4,
         "S_ABNORMALITY_REFRESH": 2
     }
 }

@@ -45,7 +45,7 @@ module.exports = function Normalifier(mod) {
 		log = false,
 		niceName = mod.proxyAuthor !== 'caali' ? '[Norm] ' : ''
 	
-	mod.hook('S_ABNORMALITY_BEGIN', 5, event => {
+	mod.hook('S_ABNORMALITY_BEGIN', 4, event => {
 		if(mod.game.me.is(event.target) && log) console.log('[Norm] Abnormality: ' + event.id + ' Duration: ' + event.duration + ' Stacks: ' + event.stacks)
 		if(enabled && BLOCKME.indexOf(event.id) > -1) return false
 	})
